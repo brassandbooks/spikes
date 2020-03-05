@@ -66,12 +66,12 @@ function IndexNavbar() {
               Prints & Publishing Company in Yenagoa
             </UncontrolledTooltip>
             <div
-              className='text-dark text-center'
+              className='text-dark'
               style={{
                 textTransform: "capitalize",
                 fontFamily: `'Roboto Slab', serif`,
-                fontSize: "25px",
-                lineHeight: "16px"
+                fontSize: "30px",
+                lineHeight: "22px"
               }}
             >
               <span>

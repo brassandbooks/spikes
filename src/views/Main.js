@@ -32,80 +32,77 @@ function Main() {
   return (
     <>
       <IndexNavbar />
-      <div className='wrapper'>
+      <div className="wrapper">
         <LandingPageHeader />
 
         <div
-          className='section section-team text-center'
-          id='services'
+          className="section section-team text-center"
+          id="services"
           style={{ backgroundColor: "#2CA8FF" }}
         >
           <Container>
-            <h2 className='title text-light'>Our Services</h2>
-            <div className='team'>
+            <h2 className="title text-light">Our Services</h2>
+            <div className="team">
               <Row>
-                <Col md='6' lg='4'>
-                  <div className='team-player'>
+                <Col md="6" lg="4">
+                  <div className="team-player">
                     <img
-                      alt='...'
-                      className='img-fluid img-raised'
-                      src='https://res.cloudinary.com/frendzy/image/upload/v1580815595/service2.png'
+                      alt="large format"
+                      className="img-fluid img-raised"
+                      src="https://res.cloudinary.com/frendzy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1583370901/spikes/large-format.jpg"
                     ></img>
-                    <h4 className='title text-light'>Large Format</h4>
-                    <p className='description text-light'>
+                    <h4 className="title text-light">Large Format</h4>
+                    <p className="description text-light">
                       Flex Banners, SAV, Window Graphics
                     </p>
                   </div>
                 </Col>
-                <Col md='6' lg='4'>
-                  <div className='team-player'>
+                <Col md="6" lg="4">
+                  <div className="team-player">
                     <img
-                      alt='...'
-                      className='img-fluid img-raised'
-                      src='https://res.cloudinary.com/frendzy/image/upload/v1580815595/service3.jpg'
+                      alt="direct imaging"
+                      className="img-fluid img-raised"
+                      src="https://res.cloudinary.com/frendzy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1583371143/spikes/tshirt-printing.jpg"
                     ></img>
-                    <h4 className='title text-light'>Direct Image</h4>
-                    <p className='description text-light'>
-                      Papers, Card
-                    </p>
+                    <h4 className="title text-light">Direct Image</h4>
+                    <p className="description text-light">Papers, Card</p>
                   </div>
                 </Col>
-                <Col md='6' lg='4'>
-                  <div className='team-player'>
+                <Col md="6" lg="4">
+                  <div className="team-player">
                     <img
-                      alt='...'
-                      className='img-fluid img-raised'
-                      src='https://res.cloudinary.com/frendzy/image/upload/v1580815595/service3.jpg'
+                      alt="branding"
+                      className="img-fluid img-raised"
+                      src="https://res.cloudinary.com/frendzy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1580815595/service2.png"
                     ></img>
-                    <h4 className='title text-light'>Branding</h4>
-                    <p className='description text-light'>
+                    <h4 className="title text-light">Branding</h4>
+                    <p className="description text-light">
                       Shirt, Cap, Vehicle, Office Branding
                     </p>
                   </div>
                 </Col>
-                <Col md='6' lg='4'>
-                  <div className='team-player'>
+                <Col md="6" lg="4">
+                  <div className="team-player">
                     <img
-                      alt='...'
-                      className='img-fluid img-raised'
-                      src='https://res.cloudinary.com/frendzy/image/upload/v1580815595/service3.jpg'
+                      alt="laminating"
+                      className="img-fluid img-raised"
+                      src="https://res.cloudinary.com/frendzy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1583370895/spikes/print-laminating.jpg"
                     ></img>
-                    <h4 className='title text-light'>Laminating</h4>
-                    <p className='description text-light'>
-                      Gloss, Matt, 3D,
-                    </p>
+                    <h4 className="title text-light">Laminating</h4>
+                    <p className="description text-light">Gloss, Matt, 3D,</p>
                   </div>
                 </Col>
-                <Col md='6' lg='4'>
-                  <div className='team-player'>
+                <Col md="6" lg="4">
+                  <div className="team-player">
                     <img
-                      alt='...'
-                      className='img-fluid img-raised'
-                      src='https://res.cloudinary.com/frendzy/image/upload/v1580815595/service3.jpg'
+                      alt="finishing"
+                      className="img-fluid img-raised"
+                      src="https://res.cloudinary.com/frendzy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1583370896/spikes/print-finishing.jpg"
                     ></img>
-                    <h4 className='title text-light'>Finishing</h4>
-                    <p className='description text-light'>
-                      Table Top Calendars, Jotters, Invitations, Special Invitations, Almanacs
+                    <h4 className="title text-light">Finishing</h4>
+                    <p className="description text-light">
+                      Table Top Calendars, Jotters, Invitations, Special
+                      Invitations, Almanacs
                     </p>
                   </div>
                 </Col>
@@ -113,36 +110,38 @@ function Main() {
             </div>
           </Container>
         </div>
-        <div className='section section-about-us' id='about'>
+        <div className="section section-about-us" id="about">
           <Container>
             <Row>
-              <Col className='ml-auto mr-auto text-center' md='8'>
-                <h2 className='title text-warning'>About Us</h2>
-                <h5 className='description'>
+              <Col className="ml-auto mr-auto text-center" md="8">
+                <h2 className="title text-warning">About Us</h2>
+                <h5 className="description">
                   Spikes Prints & Publishing is an indegenous printing and
                   publishing company that provides specialized services to our
-                  clients spanning over five years of successful practice. We
-                  deliver quality services using a blend of seasoned staff and
-                  state of the art facilities in line with international best
-                  practices. Our prices are fair and affordable.
+                  clients spanning over five years of successful practice.
+                </h5>
+                <h5 className="description">
+                  We deliver quality services using a blend of seasoned staff
+                  and state of the art facilities in line with international
+                  best practices. Our prices are fair and affordable.
                 </h5>
               </Col>
             </Row>
-            <div className='separator separator-primary'></div>
-            <div className='section-story-overview'>
+            <div className="separator separator-primary"></div>
+            <div className="section-story-overview">
               <Row>
-                <Col md='6'>
+                <Col md="6">
                   <div
-                    className='image-container image-left'
+                    className="image-container image-left"
                     style={{
                       backgroundImage:
                         "url(https://res.cloudinary.com/frendzy/image/upload/q_auto/jolly_package.jpg)"
                     }}
                   ></div>
                 </Col>
-                <Col md='5'>
+                <Col md="5">
                   <div
-                    className='image-container image-right'
+                    className="image-container image-right"
                     style={{
                       backgroundImage:
                         "url(https://res.cloudinary.com/frendzy/image/upload/q_auto/53.jpg)"
@@ -150,29 +149,43 @@ function Main() {
                   ></div>
                 </Col>
               </Row>
+
+              <h3 className="title text-center">Our Vision</h3>
+              <p className="lead text-center">
+                To be the foremost printing and publishing brand in Africa
+              </p>
+              <h3 className="title text-center">Our Core Values</h3>
+              <p className="lead text-center">
+                <ul style={{listStyleType: 'none', padding: 0}}>
+                  <li>Service</li>
+                  <li>Excellence</li>
+                  <li>Courtesy</li>
+                  <li>Timelessness</li>
+                </ul>
+              </p>
             </div>
           </Container>
         </div>
-        <div className='section section-contact-us text-center' id='contact'>
+        <div className="section section-contact-us text-center" id="contact">
           <Container>
-            <h2 className='title text-warning'>Contact Us</h2>
-            <p className='description'>Your project is very important to us.</p>
+            <h2 className="title text-warning">Contact Us</h2>
+            <p className="description">Your project is very important to us.</p>
             <Row>
-              <Col md='12'></Col>
-              <Col className='text-center ml-auto mr-auto' lg='6' md='8'>
+              <Col md="12"></Col>
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
                 <InputGroup
                   className={
                     "input-lg" + (firstFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType='prepend'>
+                  <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      <i className='now-ui-icons users_circle-08'></i>
+                      <i className="now-ui-icons users_circle-08"></i>
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder='First Name...'
-                    type='text'
+                    placeholder="First Name..."
+                    type="text"
                     onFocus={() => setFirstFocus(true)}
                     onBlur={() => setFirstFocus(false)}
                   ></Input>
@@ -182,35 +195,35 @@ function Main() {
                     "input-lg" + (lastFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType='prepend'>
+                  <InputGroupAddon addonType="prepend">
                     <InputGroupText>
-                      <i className='now-ui-icons ui-1_email-85'></i>
+                      <i className="now-ui-icons ui-1_email-85"></i>
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder='Email...'
-                    type='text'
+                    placeholder="Email..."
+                    type="text"
                     onFocus={() => setLastFocus(true)}
                     onBlur={() => setLastFocus(false)}
                   ></Input>
                 </InputGroup>
-                <div className='textarea-container'>
+                <div className="textarea-container">
                   <Input
-                    cols='80'
-                    name='name'
-                    placeholder='Type a message...'
-                    rows='4'
-                    type='textarea'
+                    cols="80"
+                    name="name"
+                    placeholder="Type a message..."
+                    rows="4"
+                    type="textarea"
                   ></Input>
                 </div>
-                <div className='send-button'>
+                <div className="send-button">
                   <Button
                     block
-                    className='btn-round'
-                    color='warning'
-                    href='#pablo'
+                    className="btn-round"
+                    color="warning"
+                    href="#pablo"
                     onClick={e => e.preventDefault()}
-                    size='lg'
+                    size="lg"
                   >
                     Send Message
                   </Button>

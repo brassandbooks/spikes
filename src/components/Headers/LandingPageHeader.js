@@ -34,7 +34,7 @@ function LandingPageHeader() {
         ></div>
         <div className='content-center'>
           <Container>
-            <h4 className='title'>Print & Publishing Company in Yenagoa.</h4>
+            <h1 className='title'>Print Big, <br/> Think Right.</h1>
             <div className='text-center'>
               <Button
                 className='btn-icon btn-round'

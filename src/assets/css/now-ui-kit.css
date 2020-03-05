@@ -3975,7 +3975,7 @@ img {
     color: #FFFFFF; }
 
 .landing-page .section-team .team .team-player img {
-  max-width: 100px; }
+  max-width: 100%; }
 
 .landing-page .section-team .team-player {
   margin-bottom: 15px; }
