@@ -174,7 +174,7 @@ function IndexNavbar() {
                   Cooming soon!
                 </UncontrolledTooltip>
               </NavItem>*/}
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   href='https://twitter.com/'
                   target='_blank'
@@ -186,10 +186,10 @@ function IndexNavbar() {
                 <UncontrolledTooltip target='#twitter-tooltip'>
                   Follow us on Twitter
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink
-                  href='https://www.facebook.com/'
+                  href='https://www.facebook.com/Spikesprints-379160899470891'
                   target='_blank'
                   id='facebook-tooltip'
                 >
@@ -202,6 +202,32 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
+                  href='https://wa.me/2348144928953'
+                  target='_blank'
+                  id='whatsapp-tooltip'
+                >
+                  <i className='fab fa-whatsapp'></i>
+                  <p className='d-lg-none d-xl-none'>WhatsApp</p>
+                </NavLink>
+                <UncontrolledTooltip target='#whatsapp-tooltip'>
+                  Chat us on WhatsApp
+                </UncontrolledTooltip>
+              </NavItem>
+              {/* <NavItem>
+                <NavLink
+                  href='mailto:hello@spikes.com.ng'
+                  target='_blank'
+                  id='email-tooltip'
+                >
+                  <i className='fas fa-envelope'></i>
+                  <p className='d-lg-none d-xl-none'>Email</p>
+                </NavLink>
+                <UncontrolledTooltip target='#whatsapp-tooltip'>
+                  Email Us at hello@spikes.com.ng
+                </UncontrolledTooltip>
+              </NavItem> */}
+              {/* <NavItem>
+                <NavLink
                   href='https://www.instagram.com/'
                   target='_blank'
                   id='instagram-tooltip'
@@ -212,7 +238,7 @@ function IndexNavbar() {
                 <UncontrolledTooltip target='#instagram-tooltip'>
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

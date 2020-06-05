@@ -156,7 +156,7 @@ function Main() {
               </p>
               <h3 className="title text-center">Our Core Values</h3>
               <p className="lead text-center">
-                <ul style={{listStyleType: 'none', padding: 0}}>
+                <ul style={{ listStyleType: "none", padding: 0 }}>
                   <li>Service</li>
                   <li>Excellence</li>
                   <li>Courtesy</li>
@@ -169,7 +169,17 @@ function Main() {
         <div className="section section-contact-us text-center" id="contact">
           <Container>
             <h2 className="title text-warning">Contact Us</h2>
-            <p className="description">Your project is very important to us.</p>
+            <p className="description">
+              Your project is very important to us.
+              <br /> You can reach us by email on:
+              <br />
+              <a href="mailto:hello@spikes.com.ng">hello@spikes.com.ng</a>
+              <br />
+              by phone on:
+              <br />
+              <a href="tel:+2348144928953">0814 492 8953</a>
+              <br /> Or fill the form below and we would be in touch
+            </p>
             <Row>
               <Col md="12"></Col>
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">

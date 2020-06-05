@@ -39,12 +39,34 @@ function LandingPageHeader() {
               <Button
                 className='btn-icon btn-round'
                 color='warning'
-                href='#pablo'
-                onClick={e => e.preventDefault()}
+                href='https://facebook.com/Spikesprints-379160899470891'
+                target="_blank"
               >
                 <i className='fab fa-facebook-square'></i>
               </Button>
               <Button
+                className='btn-icon btn-round'
+                color='warning'
+                href='https://wa.me/2348144928953'
+                target="_blank"
+              >
+                <i className='fab fa-whatsapp'></i>
+              </Button>
+              {/* <Button
+                className='btn-icon btn-round'
+                color='warning'
+                href='mailto:hello@spikes.com.ng'
+              >
+                <i className='fas fa-envelope'></i>
+              </Button>
+              <Button
+                className='btn-icon btn-round'
+                color='warning'
+                href='tel:+2348144928953'
+              >
+                <i className='fas fa-phone-square'></i>
+              </Button> */}
+              {/* <Button
                 className='btn-icon btn-round'
                 color='warning'
                 href='#pablo'
@@ -59,7 +81,7 @@ function LandingPageHeader() {
                 onClick={e => e.preventDefault()}
               >
                 <i className='fab fa-instagram'></i>
-              </Button>
+              </Button> */}
             </div>
           </Container>
         </div>

@@ -15,7 +15,11 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="/"
+                  href="/about"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.getElementById("about").scrollIntoView();
+                  }}
                 >
                   About
                 </a>
@@ -23,13 +27,21 @@ function DefaultFooter() {
               <li>
                 <a
                   href="/"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.getElementById("services").scrollIntoView();
+                  }}
                 >
                   Services
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/contact"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.getElementById("contact").scrollIntoView();
+                  }}
                 >
                   Contact
                 </a>
